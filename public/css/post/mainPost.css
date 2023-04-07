@@ -1,0 +1,160 @@
+.mainPost-content-section{
+    margin : 50px 10% 0px;
+    width:80%;
+}
+
+.mainPost-content-title{
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.avatar-sec{
+    width : 100px;
+    height : 100px;
+    border-radius : 50%;
+    margin:0px;
+}
+
+.mainPost-avatar{
+    width: 100px;
+    height : 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.userInfo-sec{
+    width: calc(100% - 100px);
+}
+
+.contactInfo-sec{
+    background-color: #1d8daf;
+    color:white;
+    width : auto;
+    padding : 4px;
+    border-radius : 10px;
+    margin:5px 0px;
+    font-size:12px;
+    cursor:pointer;
+}
+
+.mainPost-main{
+    max-width: 1500px;
+    margin:30px 30px;
+    border-radius: 6px;
+    background-color: #e0e0e0;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.mainPost-contact-sec{
+    margin : 10px 0px;
+}
+
+.detail-sec{
+    padding:0px;
+    margin: 2px 4%;
+}
+
+.long-detail-wrap{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.dropdownSelection{
+    position:absolute;
+    top:25px;
+    right:0px;
+    display:none;
+    z-index:1 !important;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+
+}
+@media screen and (min-width : 1020px) and (max-width: 10000px){
+    .mainPost-contact-info{
+        display:flex;
+        justify-content: center;
+    }
+    .mainPost-contact-sec{
+        width : 50%;
+    }
+
+    .userInfo-text{
+        font-weight: 600;
+        margin : 5px 10px;
+    }
+
+    .mainPost-main{
+        width:60%;
+    }
+
+    .detail-sec{
+        width:42%;
+    }
+}
+
+
+@media screen and (min-width : 820px) and (max-width: 1020px){
+    .mainPost-contact-info{
+        display:flex;
+        justify-content: center;
+    }
+    .mainPost-contact-sec{
+        width : 50%;
+    }
+    .userInfo-text{
+        font-weight: 600;
+        margin : 5px 10px;
+    }
+    .mainPost-main{
+        width:65%;
+    }
+    .detail-sec{
+        width:42%;
+    }
+}
+
+
+@media screen and (min-width : 450px) and (max-width: 820px){
+    .mainPost-contact-info{
+        display:flex;
+        justify-content: center;
+    }
+    .mainPost-contact-sec{
+        width : 50%;
+    }
+    .userInfo-text{
+        font-weight: 600;
+        margin : 5px 10px;
+    }
+    .mainPost-main{
+        width:80%;
+    }
+    .detail-sec{
+        width:42%;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .mainPost-contact-info{
+        display:block;
+        justify-content: center;
+    }
+
+    .mainPost-contact-sec{
+        width : 100%;
+    }
+
+    .userInfo-text{
+        font-size:10px;
+        font-weight: 600;
+        margin : 5px 10px;
+    }
+
+    .mainPost-main{
+        width:95%;
+    }
+    .detail-sec{
+        width:96%;
+    }
+}
